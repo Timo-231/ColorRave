@@ -1,21 +1,20 @@
+body {
+    width: 100%;
+}
+
 .container {
     width: 1440px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    border: solid 1px red;
 }
 
 .header {
     background-color: #012D63;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.header-nike {
-    width: 100px;
-    height: 60px;
 }
 
 .header-container {
@@ -31,14 +30,14 @@
 }
 
 .header-link {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
     color: #c7c7c7;
 }
 
 .header-link:hover {
-    font-family: "Roboto", 400;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
@@ -51,45 +50,44 @@
 
 .hero-section {
     height: 858px;
-    background-image: url(./img/backround.webp);
-    background-position: center;
+    background-image: url("./img/backround.webp");
+    background-position: center
 }
 
 .hero-nike {
     margin-top: 94px;
+    padding-left: 6px;
     width: 160px;
     height: 120px;
-    margin-left: 6px;
+    margin-bottom: -35px;
 }
 
 .hero-mark {
-    font-family: "PT Serif", 400;
-    margin-top: -30px;
+    font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 48px;
     color: #fff;
-    margin-left: 31px;
+    padding-left: 31px;
 }
 
 .hero-subtitle {
-    font-family: "Playfair Display";
-    margin-bottom: -46px;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 144px;
     color: #fff;
-    margin-left: -8px;
 }
 
 .hero-subtext {
-    font-family: "Playfair Display";
-    margin-top: 36px;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 72px;
     color: #fff;
+    margin-top: -16px;
 }
 
 .hero-text {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin-top: 12px;
     font-weight: 400;
     font-size: 18px;
@@ -97,31 +95,58 @@
 }
 
 .hero-button {
-    margin-top: 41px;
-    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     width: 254px;
     height: 67px;
     background: #8e32c6;
+    border-radius: 10px;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
+    margin-top: 41px;
     margin-bottom: 183px;
 }
 
 .about-us {
     height: 606px;
-    background-image: url(./img/backround2.webp);
+    background-image: url("./img/backround2.webp");
     background-position: center;
-}
-
-.about-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 145px;
 }
 
 .about-container {
     height: 606px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-list {
+    width: 1110px;
+    height: 396px;
+    display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+    border: solid 5px #8e32c6;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.about-item:last-child {
+    margin-right: none;
+}
+
+.about-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
 }
