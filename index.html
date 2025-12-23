@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
@@ -42,11 +44,11 @@
                     </li>
                 </ul>
             </nav>
-                <ul class="header-lang">
-                    <li class="header-item">
-                        <a href="" class="header-link">Ua  <span class="Eng">Eng</span></a>
-                    </li>
-                </ul>
+            <ul class="header-lang">
+                <li class="header-item">
+                    <a href="" class="header-link">Ua <span class="Eng">Eng</span></a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
@@ -70,13 +72,15 @@
             <div class="container about-container">
                 <ul class="about-list">
                     <li class="about-item">
-                        <h4 class="about-subtitle">PremiumQuality</h4>
+                        <h4 class="about-subtitle">Premium Quality</h4>
                         <img src="./img/stars.webp" alt="stars">
                     </li>
+                    <div class="about-line"></div>
                     <li class="about-item">
                         <img src="./img/farbs.webp" alt="farbs">
-                        <h4 class="about-subtitle">Indeliblepaint</h4>
+                        <h4 class="about-subtitle">Indelible paint</h4>
                     </li>
+                    <div class="about-line"></div>
                     <li class="about-item">
                         <h4 class="about-subtitle">Fast shipping</h4>
                         <img src="./img/delivery.webp" alt="delivery">
@@ -86,78 +90,112 @@
         </section>
         <!-- Reviews -->
         <section class="reviews">
-            <div class="container reviews-">
+            <div class="container reviews-container">
                 <h2 class="reviews-title">Reviews</h2>
                 <ul class="reviews-list">
-                    <li class="reviews-item">
+                    <li class="reviews-item reviews-1">
                         <h3 class="reviews-subtitel">Sneakers are very comfortable and well painted, nothing has worn
                             off in a year.</h3>
                         <h4 class="reviews-date">25.11</h4>
-                        <img src="./img/man.webp" alt="man">
-                        <h4 class="reviews-name">John Teylor</h4>
-                        <h5 class="reviews-from">With us from 2018</h5>
+                        <div class="contant">
+                            <img src="./img/man.webp" alt="man">
+                            <div class="name">
+                                <h4 class="reviews-name">John Teylor</h4>
+                                <h5 class="reviews-from">With us from 2018</h5>
+                            </div>
+                        </div>
                     </li>
-                    <li class="reviews-item">
+                    <li class="reviews-item reviews-2">
                         <h3 class="reviews-subtitel">I'm very happy with this color scheme.They match all my clothes.
                         </h3>
                         <h4 class="reviews-date">05.01</h4>
-                        <img src="./img/woman.webp" alt="woman">
-                        <h4 class="reviews-name">Elizabeth Garsia</h4>
-                        <h5 class="reviews-from">With us from 2020</h5>
+                        <div class="contant">
+                            <img src="./img/woman.webp" alt="woman">
+                            <div class="name">
+                                <h4 class="reviews-name">Elizabeth Garsia</h4>
+                                <h5 class="reviews-from">With us from 2020</h5>
+                            </div>
+                        </div>
                     </li>
-                    <li class="reviews-item">
+                    <li class="reviews-item reviews-3">
                         <h3 class="reviews-subtitel">Just right if you need to go to a party.I use them actively, the
                             paint is super.</h3>
                         <h4 class="reviews-date">18.06</h4>
-                        <img src="./img/man2.webp" alt="man2">
-                        <h4 class="reviews-name">Tom Maquare</h4>
-                        <h5 class="reviews-from">With us from 2019</h5>
+                        <div class="contant">
+                            <img src="./img/man2.webp" alt="man2">
+                            <div class="name">
+                                <h4 class="reviews-name">Tom Maquare</h4>
+                                <h5 class="reviews-from">With us from 2019</h5>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Order -->
         <section class="order">
-            <div class="container">
-                <form class="order-class">
-                    <label for="email" class="order-label">Write your email
-                        <input type="email" id="email" class="order-input">
-                </form>
-                <form>
-                    <label for="country" class="order-label">Your Country</label>
-                    <input type="text" id="country" class="order-input">
-                </form>
-                <form>
-                    <label for="city" class="order-label">Your City</label>
-                    <input type="text" id="city" class="order-input">
-                </form>
-                <form>
-                    <label for="adress" class="order-label">Your Adress</label>
-                    <input type="text" id="adress" class="order-input">
-                </form>
+            <div class="container order-container">
+                <h1 class="order-title">Order</h1>
+                <ul class="order-list">
+                    <li class="order-item">
+                        <input type="email" id="email" class="order-input" placeholder="Write your email">
+                        <h3 class="order-confirm">Confirm</h2>
+                    </li>
+                    <li class="order-item">
+                        <input type="text" id="country" class="order-input" placeholder="Your Country">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" id="city" class="order-input" placeholder="Your City">
+                    </li>
+                    <li class="order-item">
+                        <input type="text" id="adress" class="order-input" placeholder="Your Adress">
+                    </li>
+                </ul>
                 <button class="order-button">Order my Nike</button>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-        <h4>Have a question?</h4>
-        <h4>Have a proposal for cooperation?</h4>
-        <h4>Advertising questions?</h4>
-        <nav>
-            <ul>
-                <li><a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
-                <li><a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
-                <li><a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a></li>
-            </ul>
-        </nav>
-        <address class="footer-adress">
-            <p class="footer-subtext">2022 ColoRawe @All rights reserved</p>
-            <p class="footer-subtext">United States</p>
-        </address>
-        <img src="./img/logo.webp" alt="logo">
-        <h3 class="hero-mark">С&R</h3>
-        </div>
+        <div class="container footer-container">
+            <div class="footer-mails">
+                <div class="footer-questions">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <h2 class="footer-question">Have a question?</h2>
+                            <a href="mailto:ColoRawe_support@gmail.com"
+                                class="footer-mail">ColoRawe_support@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <h2 class="footer-question">Have a proposal for cooperation?</h2>
+                            <a href="mailto:ColoRawe_Cooperation@gmail.com"
+                                class="footer-mail">ColoRawe_Cooperation@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <h2 class="footer-question">Advertising questions?</h2>
+                            <a href="mailto:ColoRawe_Advertising@gmail.com"
+                                class="footer-mail">ColoRawe_Advertising@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+            <div class="footer-together">
+                <div class="footer-info">
+                    <div class="footer-text">
+                        <address>
+                            <h2 class="footer-date">2022 ColoRawe @All rights reserved</h2>
+                            <h2 class="footer-country">United States</h2>
+                        </address>
+                    </div>
+                </div>
+                <div class="footer-mark">
+                    <img src="./img/logo.webp" alt="logo" class="footer-logo">
+                    <h3 class="hero-mark">С&R</h3>
+                </div>
+            </div>
     </footer>
 </body>
 
