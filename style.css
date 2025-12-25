@@ -48,6 +48,7 @@ body {
 .hero-section {
     height: 858px;
     background-image: url("./img/backround.webp");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -109,6 +110,7 @@ body {
 .about-us {
     height: 606px;
     background-image: url("./img/backround2.webp");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -149,10 +151,13 @@ body {
 
 .reviews {
     height: 520px;
-    background-image: url("./img/backround3.webp");
+    background-image: url("./img/backround3.webp"), 
+    url("./img/folwers.webp");
+    background-size: cover;
     background-position: center;
     display: flex;
     background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 .reviews-title {
@@ -168,9 +173,6 @@ body {
     padding-top: 25px;
     padding-bottom: 125px;
     flex-direction: column;
-    background-image: url("./img/folwers.webp");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
 }
 
 .reviews-list {
@@ -252,6 +254,7 @@ body {
 .order {
     height: 509px;
     background-image: url("./img/backround4.webp");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
