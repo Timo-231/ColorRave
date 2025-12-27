@@ -107,6 +107,7 @@ body {
     padding-bottom: 19px;
     padding-top: 21px;
     padding-right: 61px;
+    margin-top: 41px;
 }
 
 .about-us {
@@ -280,8 +281,13 @@ body {
     flex-direction: column;
     gap: 19px;
     align-items: center;
-    margin-top: 33px;
-    margin-bottom: 19px;
+    margin-top: 15px;
+}
+
+.order-item:first-child {
+    border-radius: 50px;
+    width: 690px;
+    height: 60px;
 }
 
 .order-item {

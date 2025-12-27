@@ -7,9 +7,7 @@
     <title>ColoRawe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:
-    ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,
-    wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./normalize.css">
@@ -133,24 +131,22 @@
         <!-- Order -->
         <section class="order">
             <div class="container order-container">
-                <h1 class="order-title">Order</h1>
-                <ul class="order-list" id="order-list">
-                    <li class="order-item">
-                        <input type="email" id="email" class="order-input" placeholder="Write your email">
-                        <button class="order-confirm">Confirm</button>
-                    </li>
-                    <li class="order-item">
-                        <input type="text" id="country" class="order-input" placeholder="Your Country">
-                    </li>
-                    <li class="order-item">
-                        <input type="text" id="city" class="order-input" placeholder="Your City">
-                    </li>
-                    <li class="order-item">
-                        <input type="text" id="adress" class="order-input" placeholder="Your Adress">
-                    </li>
-                </ul>
-                <button class="order-button">Order my Nike</button>
-            </div>
+                <h2 class="order-title">Order</h2>
+                    <form action="" class="order-list" id="order-list">
+                        <label class="order-item">
+                            <input type="email" id="email" class="order-input" placeholder="Write your email">
+                        </label>
+                        <label class="order-item">
+                            <input type="text" id="country" class="order-input" placeholder="Your Country">
+                        </label>
+                        <label class="order-item">
+                            <input type="text" id="city" class="order-input" placeholder="Your City">
+                        </label>
+                        <label class="order-item">
+                            <input type="text" id="adress" class="order-input" placeholder="Your Adress">
+                        </label>
+                        <button class="order-button" type="submit">Order my Nike</button>
+                    </form>
         </section>
     </main>
     <footer class="footer">
