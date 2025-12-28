@@ -227,7 +227,7 @@ body {
     border-radius: 15px;
     width: 255px;
     height: 292px;
-    box-shadow: 0 30px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+    box-shadow:0 14px 0 -5px #7b54b2, 0 30px 0 -13px #533978;
     background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
 }
 
@@ -235,7 +235,7 @@ body {
     border-radius: 15px;
     width: 255px;
     height: 292px;
-    box-shadow: 0 30px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
+    box-shadow: 0 14px 0 -5px #9159b1, 0 30px 0 -13px #61337c;
     background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
 }
 
@@ -243,7 +243,7 @@ body {
     border-radius: 15px;
     width: 255px;
     height: 292px;
-    box-shadow: 0 30px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+    box-shadow: 0 14px 0 -5px #b95a4c, 0 30px 0 -13px #732f26;
     background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
 }
 
@@ -288,45 +288,34 @@ body {
     margin-top: 15px;
 }
 
-.order-item:first-child {
-    border-radius: 50px;
-    width: 690px;
-    height: 60px;
-}
-
 .order-item {
     border-radius: 50px;
-    width: 580px;
-    height: 50px;
+    /* width: 580px;
+    height: 50px; */
     background-color: #fff;
 }
 
-.order-label {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    color: #959595;
-    padding-left: 24px;
+.order-item:first-child {
+    .order-input {
+        border-radius: 50px;
+        width: 690px;
+        height: 60px;
+    }
 }
 
 .order-input {
+    display: flex;
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-left: 25px;
     border: none;
     font-weight: 400;
     font-size: 28px;
     color: #959595;
-    width: 240px;
-    height: 35px;
-    background-color: transparent;
-    padding-left: 25px;
-}
-
-.order-item {
-    display: flex;
-    border-radius: 50px;
-    width: 690px;
-    height: 60px;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .order-label {
@@ -421,10 +410,23 @@ body {
     color: #fff;
 }
 
-.footer-text {
+.footer-adress {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.foot-date {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.foot-usa {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
 }
 
 .footer-together {
