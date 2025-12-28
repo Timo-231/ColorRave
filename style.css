@@ -92,9 +92,11 @@ body {
     font-weight: 400;
     font-size: 18px;
     color: #fff;
+    margin-bottom: 41px;
 }
 
 .hero-button {
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     border-radius: 10px;
@@ -107,7 +109,6 @@ body {
     padding-bottom: 19px;
     padding-top: 21px;
     padding-right: 61px;
-    margin-top: 41px;
 }
 
 .about-us {
@@ -140,21 +141,28 @@ body {
     padding-right: 72px;
 }
 
+.about-item:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: none;
+}
+
 .about-subtitle {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
     color: #fff;
-    max-width: 159px;
-    padding-left: 50px;
+    width: 159px;
 }
 
 .reviews {
     height: 520px;
-    background-image: url("./img/backround3.webp");
-    background-size: cover;
-    background-position: center;
+    background-image: url("./img/folwers.webp"), url("./img/backround3.webp");
+    background-size: auto, cover;
+    background-position: left, center;
+    background-position-y: bottom;
     display: flex;
     background-repeat: no-repeat;
 }
@@ -169,10 +177,6 @@ body {
 
 .reviews-container {
     display: flex;
-    background-image: url("./img/folwers.webp");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: left;
     padding-top: 25px;
     padding-bottom: 125px;
     flex-direction: column;
@@ -432,6 +436,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    transform: translateY(-22px);
 }
 
 .footer-text {
