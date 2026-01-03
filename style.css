@@ -47,7 +47,8 @@ body {
 }
 
 .hero-section {
-    height: 858px;
+    padding-top: 94px;
+    padding-bottom: 183px;
     background-image: url("./img/backround.webp");
     background-size: cover;
     background-position: center;
@@ -112,7 +113,8 @@ body {
 }
 
 .about-us {
-    height: 606px;
+    padding-top: 105px;
+    padding-bottom: 105px;
     background-image: url("./img/backround2.webp");
     background-size: cover;
     background-position: center;
@@ -121,7 +123,6 @@ body {
 
 .about-container {
     display: flex;
-    height: 606px;
     align-items: center;
     justify-content: center;
 }
@@ -162,7 +163,8 @@ body {
 }
 
 .reviews {
-    height: 520px;
+    padding-top: 25px;
+    padding-bottom: 114px;
     background-image: url("./img/folwers.webp"), url("./img/backround3.webp");
     background-size: auto, cover;
     background-position: left, center;
@@ -181,8 +183,6 @@ body {
 
 .reviews-container {
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 125px;
     flex-direction: column;
 }
 
@@ -262,7 +262,8 @@ body {
 }
 
 .order {
-    height: 509px;
+    padding-top: 21px;
+    padding-bottom: 37px;
     background-image: url("./img/backround4.webp");
     background-size: cover;
     background-position: center;
@@ -277,11 +278,9 @@ body {
 }
 
 .order-container {
-    height: 509px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 21px;
 }
 
 .order-list {
@@ -355,12 +354,12 @@ body {
 }
 
 .footer {
-    height: 292px;
+    padding-top: 45px;
+    padding-bottom: -24px;
     background: #021635;
 }
 
 .footer-container {
-    height: 292px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -370,7 +369,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-top: 45px;
 }
 
 .footer-item {
@@ -415,6 +413,7 @@ body {
 }
 
 .footer-adress {
+    padding-top: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
