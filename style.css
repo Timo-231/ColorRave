@@ -20,11 +20,14 @@ body {
     align-items: center;
 }
 
+.header-nav {
+    margin-left: 145px;
+    margin-right: 73px;
+}
+
 .header-list {
     display: flex;
     gap: 29px;
-    margin-left: 152px;
-    margin-right: 73px;
 }
 
 .header-link {
