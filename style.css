@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1140px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -59,7 +59,6 @@ body {
 }
 
 .hero-nike {
-    margin-top: 94px;
     padding-left: 6px;
     width: 160px;
     height: 120px;
