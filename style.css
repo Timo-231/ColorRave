@@ -18,7 +18,7 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-}
+}   
 
 .header-nav {
     margin-left: 145px;
