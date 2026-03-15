@@ -204,6 +204,9 @@ body {
     font-weight: 300;
     font-size: 24px;
     color: #c7c7c7;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .header-link:hover {
@@ -211,6 +214,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #fff;
+    transform: scale(45px, 50px);
 }
 
 .Eng {
